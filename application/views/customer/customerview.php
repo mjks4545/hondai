@@ -90,7 +90,7 @@
                     <?php 
                     if($row['cash'][$i]->c_status==1){
                     ?>
-                        <a href="<?=site_url()?>cash/cash_pay/<?=$row['cash'][$i]->c_id;?>/" class="btn btn-primary">Pay Customer</a>
+                        <a href="<?=site_url()?>cash/cash_pay/<?=$row['cash'][$i]->c_id;?>/<?=$this->uri->segment(4)?>" class="btn btn-primary">Pay Customer</a>
                         <?php }
 
                          else { ?>

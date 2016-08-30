@@ -183,7 +183,7 @@ class Customer_m extends CI_Model{
 		   $array[$i]['member'] = $query->result();
 		   
 		   $this->db->where( 'b_id',$cash->s_b_id );
-		   $this->db->where( 'b_id',$cash->r_b_id );
+		   $this->db->or_where( 'b_id',$cash->r_b_id );
 		   $query = $this->db->get('branch');
 		   $array[$i]['branch'] = $query->result();
 		   $array[$i]['cash']  = $result;

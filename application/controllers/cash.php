@@ -40,9 +40,8 @@ class Cash extends CI_Controller {
 	}
 	public function cash_pay(){
 		$id = $this->uri->segment(3);
-		//echo $id;die();
-		//$status = $this->uri->segment(4);
-		$result = $this->cash_m->cash_pay($id);
+		$status = $this->uri->segment(4);
+		$result = $this->cash_m->cash_pay($id,$status);
 		//echo $status;
 	}
 	

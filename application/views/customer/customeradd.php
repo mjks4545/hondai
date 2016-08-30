@@ -25,13 +25,13 @@
                             <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Sender Name</label>
-                                     <input type="text" name="s_name" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1" value=""  required/>
+                                     <input type="text" name="s_name" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1" value=""  />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
 								 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Reciever Name</label>
-                                     <input type="text" name="r_name" class="form-control"maxlength="15" required/>
+                                     <input type="text" name="r_name" class="form-control"maxlength="15" />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -42,7 +42,7 @@
                                      
                                  <div class="form-group has-feedback col-md-6">
 								 <label for="exampleInputEmail1">Send To Branch</label>
-                                     <select class="form-control" name="s_branch" maxlength="50" minlength="1" id="exampleInputEmail1" required>
+                                     <select class="form-control" name="s_branch" maxlength="50" minlength="1" id="exampleInputEmail1"  >
 									  <option>Select Branch</option>
                                       <?php 
                                       if(isset($branch)){
@@ -57,7 +57,7 @@
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Receiver Branch</label>
 
-                                     <select type="text" name="r_branch" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required>
+                                     <select type="text" name="r_branch" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   >
                                          <option>Select Branch</option>
                                         <?php 
                                         if(isset($branch)){
@@ -72,13 +72,13 @@
 							 <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Sender city</label>
-                                     <input type="text" name="s_city" class="form-control" maxlength="50" minlength="3" required/>
+                                     <input type="text" name="s_city" class="form-control" maxlength="50" minlength="3"  />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
                                 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Reciever city</label>
-                                     <input type="text" name="r_city" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1" required/>
+                                     <input type="text" name="r_city" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div> 
@@ -89,14 +89,14 @@
 							 <div class="col-md-12">
                                     <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Sender Country</label>
-                                     <input type="text" name="s_country" class="form-control"  minlength="1" maxlength="15" required/>
+                                     <input type="text" name="s_country" class="form-control"  minlength="1" maxlength="15"  />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
 
 								 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Reciever Country</label>
-                                     <input type="text" name="r_country" class="form-control"  minlength="1" maxlength="15" id="exampleInputEmail1" required/>
+                                     <input type="text" name="r_country" class="form-control"  minlength="1" maxlength="15" id="exampleInputEmail1"  />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -106,13 +106,13 @@
 							 <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Amount</label>
-                                     <input type="text" name="amount" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required/>
+                                     <input type="text" name="amount" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
 								 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Commission</label>
-                                     <input type="text" name="commission" class="form-control"  minlength="1" maxlength="15" id="exampleInputEmail1"  required/>
+                                     <input type="text" name="commission" class="form-control"  minlength="1" maxlength="15" id="exampleInputEmail1"   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -121,13 +121,13 @@
 							 <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Sender Street Address</label>
-                                     <input type="text" name="s_streetaddress" class="form-control" maxlength="50" minlength="3"  value=""  required/>
+                                     <input type="text" name="s_streetaddress" class="form-control" maxlength="50" minlength="3"  value=""   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
 								 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Reciever Street Address</label>
-                                     <input type="text" name="r_streetaddress" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required/>
+                                     <input type="text" name="r_streetaddress" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -135,7 +135,7 @@
 								 <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Currency Symbol</label>
-                                     <input type="text" name="c_symbol" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required/>
+                                     <input type="text" name="c_symbol" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -143,14 +143,14 @@
                             <div class="col-md-12">
                                  <div class="form-group has-feedback col-md-6">
 								 <label for="exampleInputEmail1">H. No</label>
-                                     <input type="text" name="c_h_no" class="form-control" pattern="(?=.*\d).{1,15}" minlength="1" maxlength="15" required/> 
+                                     <input type="text" name="c_h_no" class="form-control" pattern="(?=.*\d).{1,15}" minlength="1" maxlength="15"  /> 
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                     <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
                                  <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Transaction Type</label>
 
-                                     <select type="text" name="c_transaction" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required>
+                                     <select type="text" name="c_transaction" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   >
                                          <option selected value="">---Select Transaction Type---</option>
                                          <option  value="1">Credit</option>
                                          <option value="0">Debit</option>
@@ -161,7 +161,7 @@
 							</div>
 								 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Rate</label>
-                                     <input type="text" name="c_rate" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"  required/>
+                                     <input type="text" name="c_rate" class="form-control" maxlength="50" minlength="3" id="exampleInputEmail1"   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>
@@ -169,7 +169,7 @@
 								<div class="col-md-12">
                                 <div class="form-group has-feedback col-md-6">
                                      <label for="exampleInputEmail1">Number</label>
-                                     <input type="text" name="number" class="form-control" pattern="(?=.*\d).{1,15}" minlength="1" maxlength="15" value=""  required/>
+                                     <input type="text" name="number" class="form-control" pattern="(?=.*\d).{1,15}" minlength="1" maxlength="15" value=""   />
                                      <span class="glyphicon form-control-feedback" aria-hidden="true" style="margin-right: 20px;"></span>
                                      <span class="help-block with-errors" style="margin-left:10px; "></span>
                                  </div>

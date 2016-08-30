@@ -93,7 +93,7 @@
                             <?php 
                             if($row['cash'][$i]->c_status ==1 )
                             {?>
-							    <a href="<?=site_url()?>customer/customerview/<?=$row['cash'][$i]->c_id?>"/ class="btn btn-success">Unpaid</a>
+							    <a href="<?=site_url()?>customer/customerview/<?=$row['cash'][$i]->c_id?>/<?=$this->uri->segment(3)?>"/ class="btn btn-success">Unpaid</a>
 							<?php }else{?>
                                 <a href="<?=site_url()?>customer/customerview/<?=$row['cash'][$i]->c_id?>"/ class="btn btn-danger">paid</a>
                                 <?php }?>                                

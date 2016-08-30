@@ -68,6 +68,7 @@ class Customer extends CI_Controller {
 	public function customer_search()
 	{
 		$data['result'] = $this->customer_m->customer_search();
+		// echo "<pre>";print_r($data);die;
 		$this->load->view('include/header');
 	    $this->load->view('include/sidebar');
 		$this->load->view('customer/customer_search',$data);

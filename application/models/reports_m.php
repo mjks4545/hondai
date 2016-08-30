@@ -53,7 +53,8 @@ class Reports_m extends CI_Model{
 public function daily_reports(){
         $first_date = $this->input->post('from_date');
         $this->db->select('b_id,c_id,b_name,c_amount,c_transaction, s_b_id, r_b_id, c_dateadded');
-        $this->db->where('c_dateadded =', $first_date);
+        $this->db->where('cash.c_dateadded =', $first_date);
+        $this->db->or_where('cash.c_dateupdated =',$first_date);
         $this->db->from('cash');
         $this->db->join('branch', 'branch.b_id = cash.s_b_id');
         $query = $this->db->get();

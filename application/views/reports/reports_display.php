@@ -36,8 +36,7 @@
                                 <?php 
                                 $s=1;
                                 $counter=0;
-                                
-                                for($counter;$counter<count($result);$counter++)
+                                for($counter;$counter<count($result['sendandreceiver']['sender']);$counter++)
                                 {
                                 ?>
                                 <tr>
